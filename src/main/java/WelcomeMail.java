@@ -1,15 +1,12 @@
-package com.tomasz.sendEmail.Main;
-
-public class ConfirmMail {
+public class WelcomeMail {
 
     private String title;
     private String Content;
-    private String password;
 
     public void sendEmail(){
         System.out.println("Welcome Mail");
     }
-    public ConfirmMail() {
+    public WelcomeMail() {
         // TODO Auto-generated constructor stub
     }
     public String getTitle() {
@@ -23,12 +20,6 @@ public class ConfirmMail {
     }
     public void setContent(String content) {
         Content = content;
-    }
-    public String getPassword() {
-        return password;
-    }
-    public void setPassword(String password) {
-        this.password = password;
     }
 
 }
